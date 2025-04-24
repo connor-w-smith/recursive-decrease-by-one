@@ -36,10 +36,24 @@ int findMaximum(int arr[], int size) {
 
 
 int main() {
-    int S[] = {3, 5, 2, 9, 1, 8, 0, 2};
-    int size = sizeof(S) / sizeof(S[0]);
+   int size;
+   
+   cout << "Enter the desired numbers for the array please..";
+   cin >> size;
 
-    int maxElement = findMaximum(S, size);
-    cout << "The array given is {3, 5, 2, 9, 1, 8, 0, 2}";
-    cout << "The maximum element in the array is: " << maxElement << endl;
+   int* arr = new int[size];
+
+   cout << "Enter " << size << " integers:\n";
+    for(int i = 0; i < size; ++i) {
+        cout << "Element " << i + 1 << ": ";
+        cin >> arr[i];
+    }
+
+    cout << "\n--Recursive Steps--\n";
+    int maxValue = findMaximum(arr, size);
+
+    cout << "\nMaximum value found: " << maxValue << endl;
+
+    delete[] arr;
+    return 0;
 }
