@@ -38,7 +38,7 @@ int findMaximum(int arr[], int size) {
 int main() {
    int size;
    
-   cout << "Enter the desired numbers for the array please..";
+   cout << "Enter the desired numbers for the array please.. ";
    cin >> size;
 
    int* arr = new int[size];
