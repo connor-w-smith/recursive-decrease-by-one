@@ -1,8 +1,11 @@
 /*
     Title: Recursive Decrease By One
-    Author: Connor Smith
+    Author: Connor Smith and Max Beatty
     Description: As said in the 'README', this is an example on how to find the maximum element in an array using the recursive decrease by one
                 algorithm
+
+    How to Run: Open a new Terminal, next type 'g++ example.cpp -o example' next, if/when program compiles correctly,
+    type './example' and the program should run.
 */
 
 #include <iostream>
