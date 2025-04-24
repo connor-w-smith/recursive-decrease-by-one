@@ -1,6 +1,6 @@
 /*
     Title: Recursive Decrease By One
-    Author: Connor Smith and Max Beatty
+    Author: Connor Smith and Max Beaty
     Description: As said in the 'README', this is an example on how to find the maximum element in an array using the recursive decrease by one
                 algorithm
 
