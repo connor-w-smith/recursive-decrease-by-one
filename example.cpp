@@ -36,21 +36,21 @@ int findMaximum(int arr[], int size) {
 
 
 int main() {
-   int size;
+   int num;
    
-   cout << "Enter the desired numbers for the array please.. ";
-   cin >> size;
+   cout << "Enter the desired number of elements in the array please.. ";
+   cin >> num;
 
-   int* arr = new int[size];
+   int* arr = new int[num];
 
-   cout << "Enter " << size << " integers:\n";
-    for(int i = 0; i < size; ++i) {
+   cout << "Enter " << num << " integers:\n";
+    for(int i = 0; i < num; ++i) {
         cout << "Element " << i + 1 << ": ";
         cin >> arr[i];
     }
 
     cout << "\n--Recursive Steps--\n";
-    int maxValue = findMaximum(arr, size);
+    int maxValue = findMaximum(arr, num);
 
     cout << "\nMaximum value found: " << maxValue << endl;
 
