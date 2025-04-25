@@ -6,6 +6,10 @@
 
     How to Run: Open a new Terminal, next type 'g++ example.cpp -o example' next, if/when program compiles correctly,
     type './example' and the program should run.
+
+    This output is static.
+
+    The educational output is located in the console.
 */
 
 #include <iostream>
